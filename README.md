@@ -1,4 +1,8 @@
-[![NPM version](https://img.shields.io/npm/v/@generalov/open-in-editor.svg)](https://www.npmjs.com/package/@generalov/open-in-editor)
+[![NPM Version][npm-image]][npm-url]
+[![Linux Build][travis-image]][travis-url]
+[![Windows Build][appveyor-image]][appveyor-url]
+[![Test Coverage][coveralls-image]][coveralls-url]
+[![Known Vulnerabilities][snyk-image]][snyk-url]
 
 NPM package to open a file in editor.
 
@@ -227,3 +231,14 @@ For bugs and feature requests, please [create an issue](https://github.com/lahma
 ## License
 
 MIT
+
+[npm-image]: https://img.shields.io/npm/v/@generalov/open-in-editor.svg
+[npm-url]: https://www.npmjs.com/package/@generalov/open-in-editor
+[appveyor-image]: https://img.shields.io/appveyor/ci/generalov/open-in-editor/master.svg?label=windows
+[appveyor-url]: https://ci.appveyor.com/project/generalov/open-in-editor
+[travis-image]: https://travis-ci.org/generalov/open-in-editor.svg?label=Linux
+[travis-url]: https://travis-ci.org/generalov/open-in-editor
+[coveralls-image]: https://coveralls.io/repos/github/generalov/open-in-editor/badge.svg?
+[coveralls-url]: https://coveralls.io/github/generalov/open-in-editor
+[snyk-image]: https://snyk.io/test/github/generalov/open-in-editor/badge.svg
+[snyk-url]: https://snyk.io/test/github/generalov/open-in-editor
