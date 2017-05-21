@@ -1,9 +1,5 @@
 language: node_js
 node_js:
-  - "0.12"
-  - "1.8"
-  - "2.5"
-  - "3.3"
   - "4.8"
   - "5.12"
   - "6.10"
@@ -13,11 +9,10 @@ cache:
   directories:
     - node_modules
 before_install:
-  - "test $(echo $TRAVIS_NODE_VERSION | cut -d. -f1) -ge 4 || npm rm --save-dev $(grep -E '\"eslint\\S*\"' package.json | cut -d'\"' -f2)"
   - "test ! -d node_modules || npm prune"
   - "test ! -d node_modules || npm rebuild"
 script:
   - "npm run-script test-ci"
-  - "test -z $(npm -ps ls eslint  ) || npm run-script lint"
+  - "npm run-script lint"
 after_script:
   - "test -e ./coverage/lcov.info && npm install coveralls@2.13.1 && cat ./coverage/lcov.info | coveralls"
