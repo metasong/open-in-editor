@@ -236,7 +236,7 @@ MIT
 [npm-url]: https://www.npmjs.com/package/@generalov/open-in-editor
 [appveyor-image]: https://img.shields.io/appveyor/ci/generalov/open-in-editor/master.svg?label=windows
 [appveyor-url]: https://ci.appveyor.com/project/generalov/open-in-editor
-[travis-image]: https://travis-ci.org/generalov/open-in-editor.svg?label=Linux
+[travis-image]: https://img.shields.io/travis/generalov/open-in-editor/master.svg?label=linux
 [travis-url]: https://travis-ci.org/generalov/open-in-editor
 [coveralls-image]: https://coveralls.io/repos/github/generalov/open-in-editor/badge.svg?
 [coveralls-url]: https://coveralls.io/github/generalov/open-in-editor
