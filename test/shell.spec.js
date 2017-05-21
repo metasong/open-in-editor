@@ -9,7 +9,7 @@ function testSuite (platform) {
     if (typeof expected !== 'string') {
       expected = expected[platform];
     }
-    if (String(actual) != expected) {
+    if (String(actual) !== expected) {
       assert.fail(String(actual), expected, message, '==', assertEqual);
     }
   }
