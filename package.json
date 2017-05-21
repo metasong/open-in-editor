@@ -41,12 +41,14 @@
     "eslint-plugin-mocha": "4.9.0",
     "eslint-plugin-promise": "3.5.0",
     "eslint-plugin-standard": "2.1.1",
+    "istanbul": "0.4.5",
     "mocha": "3.2.0"
   },
   "scripts": {
-    "lint": "eslint --ext js .",
     "fix": "eslint --fix --ext js .",
+    "lint": "eslint --ext js .",
     "test": "mocha --reporter spec --bail --check-leaks test",
+    "test-ci": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test",
     "test-watch": "mocha -w --reporter spec --bail --check-leaks test"
   }
 }
