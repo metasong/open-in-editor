@@ -1,7 +1,7 @@
 {
   "name": "@generalov/open-in-editor",
   "description": "Open file in editor",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "author": "Roman Dvornov <rdvornov@gmail.com>",
   "license": "MIT",
   "repository": "generalov/open-in-editor",
