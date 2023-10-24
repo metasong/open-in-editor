@@ -73,7 +73,7 @@ dte.UserControl = True
 wshShell.AppActivate dte.MainWindow.Caption
 
 dte.ItemOperations.OpenFile fullpath
-dte.ActiveDocument.Selection.MoveToLineAndOffset line, column + 1
+dte.ActiveDocument.Selection.MoveToLineAndOffset line, column
 
 if Err.Number <> 0 Then
     WScript.Quit Err.Number
